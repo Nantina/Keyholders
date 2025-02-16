@@ -1,16 +1,12 @@
-FROM python:3.8-alpine
+FROM python:3-alpine
 
 WORKDIR /app
-COPY . /app
 
-RUN pip install flask openai requests yfinance talib
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir pandas && pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "app.py"]
+COPY . /app/
 
+EXPOSE 80
 
-FROM python:3.8-alpine
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["python", "app.py"]
+CMD ["python", "./app.py"]
