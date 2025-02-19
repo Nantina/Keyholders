@@ -1,0 +1,9 @@
+{"_default": {"1": {"datetime": "2025-02-18T13:55:20.285027", "trade_type": "buy", "price": 37234.27, "amount": 0.1297, "total_cost_or_revenue": 4829.28, "thoughts": "Excited to buy at this price, hoping for a rise soon.", "profit_loss": 0}, "2": {"datetime": "2025-02-18T13:55:20.285079", "trade_type": "sell", "price": 33398.1, "amount": 0.0746, "total_cost_or_revenue": 2491.5, "thoughts": "Feeling nervous about selling. Did I make the right decision?", "profit_loss": -248.88},"3":{
+    "datetime": "2025-02-19T10:30:45.512345",
+    "trade_type": "sell",
+    "price": 38950.75,
+    "amount": 0.1502,
+    "total_cost_or_revenue": 5851.34,
+    "thoughts": "Feeling relieved to lock in some profits, but wondering if I sold too early.",
+    "profit_loss": 320.45
+}}}
