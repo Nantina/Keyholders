@@ -13,6 +13,11 @@ Synesis.AI is your personal trade analyst, risk mitigation expert, and trading j
  - 100% python
 (FastApi,Streamlit)
 
+## Future Enhacments
+
+- Complete integration with your favorite broker.
+- Alert system
+
 ## 🚀 Getting Started
 
 ### Prerequisites
