@@ -21,7 +21,7 @@ Synesis.AI is your personal trade analyst, risk mitigation expert, and trading j
 ## 🚀 Getting Started
 
 ### Prerequisites
-Ensure you have Docker and Docker Compose installed on your machine.
+Ensure you add a .env file with your OPENAI_API_KEY.
 
 ## Docker
 ### Requirements
